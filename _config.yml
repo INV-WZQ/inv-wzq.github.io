@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Zeqing Wang"
 description              : ""
-repository               : "INV-WZQ/invwzq.github.io"
+repository               : "INV-WZQ/inv-wzq.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zeqing Wang"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : ""
   bio              : "National University of Singapore"
-  location         : "Singapore, Singapore"
+  location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hr33fY0AAAAJ&hl=zh-CN&inst=3212728378801010220"
-  email            : "zeqing.wang@u.nus.edu"
+  email            : "zeqing.wangn@u.nus.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/INV-WZQ"
+  github           : "INV-WZQ"
   google_plus      :
   keybase          :
   instagram        :
