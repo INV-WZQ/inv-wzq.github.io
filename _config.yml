@@ -35,7 +35,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://x.com/inv_wzq"
+  facebook         : 
   foursquare       :
   github           : "INV-WZQ"
   google_plus      :
@@ -45,13 +45,13 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0009-0003-0585-9914"
+  orcid            : # "https://orcid.org/0009-0003-0585-9914"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "https://x.com/inv_wzq"
   vine             :
   weibo            :
   xing             :
