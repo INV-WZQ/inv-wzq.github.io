@@ -37,5 +37,7 @@ Currently, my research interests include:
 # 🎖 Honors and Awards
 
 # 📖 Educations
-
+- *2025.08 - (now)*, Msc. Student in College of Design and Engineering, National University of Singapore
+- *2021.09 - 2025.06*, B.Eng. in Computer Science and Technology, Xidian University
+ 
 # 💻 Internships
