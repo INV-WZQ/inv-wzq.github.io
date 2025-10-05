@@ -39,14 +39,35 @@ Currently, my research interests include:
 
 [**SparseD: Sparse Attention for Diffusion Language Models**](https://arxiv.org/abs/2509.24014) <img src='https://img.shields.io/github/stars/INV-WZQ/SparseD.svg?style=social&label=Star' alt="sym" height="100%">
 
-**Zeqing Wang**, Gongfan Fang, Xinyin Ma, Xingyi Yang*, Xinchao Wang* 
+**Zeqing Wang**, Gongfan Fang, Xinyin Ma, Xingyi Yang, Xinchao Wang
 
 <div style="display: inline">
     <a href="https://arxiv.org/abs/2509.24014"> <strong>[paper]</strong></a>
     <a href="https://github.com/INV-WZQ/SparseD"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
-        <p>  </p>
+        <p> While diffusion language models (DLMs) offer a promising alternative to autoregressive models (ARs), existing open-source DLMs suffer from high inference latency. This bottleneck is mainly due to the attention's quadratic complexity with respect to context length in computing all query-key pairs. Intuitively, to reduce this complexity, a natural strategy is to restrict attention to sparse patterns that retain only the most relevant connections. Such approaches are well-established in ARs, where attention follows fixed and clearly defined sparse patterns. However, in DLMs, we observe distinct sparsity behaviors: (1) attention patterns vary across heads, (2) attention patterns in each head remain highly similar across denoising steps, and (3) early denoising steps are critical for generation. These findings render sparse attention methods designed for ARs largely incompatible with DLMs, as they fail to capture head-specific structures and risk degrading generation when applied in early denoising steps. To address these challenges, we propose SparseD, a novel sparse attention method for DLMs. Leveraging the observations, SparseD only requires pre-computing head-specific sparse patterns one time, and reuses them across all steps. This prevents recomputing sparse patterns at each denoising step. Meanwhile, SparseD uses full attention in the early steps, then switches to sparse attention later to maintain generation quality. Together, these establish SparseD as a practical and efficient solution for deploying DLMs in long-context applications. Experimental results demonstrate that SparseD achieves lossless acceleration, delivering up to 1.50x speedup over FlashAttention at a 64k context length with 1,024 denoising steps. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
+https://github.com/DualParal-Project/DualParal/blob/main/assets/gif1.gif
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/DualParal-Project/DualParal/blob/main/assets/gif1.gif?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Minute-Long Videos with Dual Parallelisms**](https://arxiv.org/abs/2505.21070) <img src='https://img.shields.io/github/stars/DualParal-Project/DualParal.svg?style=social&label=Star' alt="sym" height="100%">
+
+**Zeqing Wang**, Bowen Zheng, Xingyi Yang, Zhenxiong Tan, Yuecong Xu, Xinchao Wang
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2505.21070"> <strong>[paper]</strong></a>
+    <a href="https://github.com/DualParal-Project/DualParal"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Diffusion Transformer (DiT)-based video diffusion models generate high-quality videos at scale but incur prohibitive processing latency and memory costs for long videos. To address this, we propose a novel distributed inference strategy, termed DualParal. The core idea is that, instead of generating an entire video on a single GPU, we parallelize both temporal frames and model layers across GPUs. However, a naive implementation of this division faces a key limitation: since diffusion models require synchronized noise levels across frames, this implementation leads to the serialization of original parallelisms. We leverage a block-wise denoising scheme to handle this. Namely, we process a sequence of frame blocks through the pipeline with progressively decreasing noise levels. Each GPU handles a specific block and layer subset while passing previous results to the next GPU, enabling asynchronous computation and communication. To further optimize performance, we incorporate two key enhancements. Firstly, a feature cache is implemented on each GPU to store and reuse features from the prior block as context, minimizing inter-GPU communication and redundant computation. Secondly, we employ a coordinated noise initialization strategy, ensuring globally consistent temporal dynamics by sharing initial noise patterns across GPUs without extra resource costs. Together, these enable fast, artifact-free, and infinitely long video generation. Applied to the latest diffusion transformer video generator, our method efficiently produces 1,025-frame videos with up to 6.54x lower latency and 1.48x lower memory cost on 8xRTX 4090 GPUs.  </p>
     </div>
 </div>
 
