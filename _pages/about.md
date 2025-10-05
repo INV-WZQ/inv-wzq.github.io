@@ -19,7 +19,7 @@ redirect_from:
 
 👋 Hi there! My name is Zeqing Wang (王则清).
 
-I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore. Previously, I obtained my bachelor degree in computer science from Xidian University. My research focuses on Efficient AI, Generative Models, and Continual Learning.
+I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore. Previously, I obtained my bachelor degree in computer science from Xidian University. 
 
 Currently, my research interests include:
 
