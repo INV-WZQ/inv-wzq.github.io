@@ -61,6 +61,7 @@ Currently, my research interests include:
 **Zeqing Wang**, Bowen Zheng, Xingyi Yang, Zhenxiong Tan, Yuecong Xu, Xinchao Wang
 
 <div style="display: inline">
+    <a href="https://dualparal-project.github.io/dualparal.github.io/"> <strong>[project page]</strong></a>
     <a href="https://arxiv.org/abs/2505.21070"> <strong>[paper]</strong></a>
     <a href="https://github.com/DualParal-Project/DualParal"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
@@ -94,6 +95,8 @@ Currently, my research interests include:
 
 
 # 🎖 Honors and Awards
+- 2021-2025(B.Eng.): National Scholarship of 2021-2022, National Scholarship of 2022-2023, 2025 CCF Elite Collegiate Award, Duan Baoyan Innovation Fund (Only 4 undergraduate students at Xidian University)
+
 
 # 📖 Educations
 - *2025.08 - (now)*, Msc. Student in College of Design and Engineering, National University of Singapore
