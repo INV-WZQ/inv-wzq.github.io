@@ -31,6 +31,8 @@ Currently, my research interests include:
 
 
 # 🔥 News
+- 2025.08: ⛵ Start my Msc. journey in NUS!
+- 2025.06: 🎉 Got my Bachelor degree from Xidian University! Thanks to my supervisor and all my friends in XDU!
 
 # 📝 Publications 
 
