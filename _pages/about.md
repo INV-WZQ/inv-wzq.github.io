@@ -31,6 +31,7 @@ Currently, my research interests include:
 
 
 # 🔥 News
+- 2025.11: 🌟 Three papers ([DualParal](https://arxiv.org/abs/2505.21070), [SAMCL](https://arxiv.org/abs/2412.05012) and [Jump-teaching](https://arxiv.org/abs/2405.17137)) accepted by AAAI’26.
 - 2025.08: ⛵ Start my Msc. journey in NUS!
 - 2025.06: 🎉 Got my Bachelor degree from Xidian University! Thanks to my supervisor and all my friends in XDU!
 
@@ -55,7 +56,7 @@ Currently, my research interests include:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/DualParal-Project/DualParal/blob/main/assets/gif1.gif?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='https://github.com/DualParal-Project/DualParal/blob/main/assets/gif1.gif?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Minute-Long Videos with Dual Parallelisms**](https://arxiv.org/abs/2505.21070) <img src='https://img.shields.io/github/stars/DualParal-Project/DualParal.svg?style=social&label=Star' alt="sym" height="100%">
