@@ -64,7 +64,7 @@ Currently, my research interests include:
 **Zeqing Wang**, Bowen Zheng, Xingyi Yang, Zhenxiong Tan, Yuecong Xu, Xinchao Wang
 
 <div style="display: inline">
-    <a href="https://dualparal-project.github.io/dualparal.github.io/"> <strong>[project page]</strong></a>
+    <a href="https://dualparal-project.github.io"> <strong>[project page]</strong></a>
     <a href="https://arxiv.org/abs/2505.21070"> <strong>[paper]</strong></a>
     <a href="https://github.com/DualParal-Project/DualParal"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
