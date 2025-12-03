@@ -77,6 +77,29 @@ Currently, my research interests include:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='https://github.com/INV-WZQ/SAMCL/blob/main/images/method.png?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SAMCL: Empowering SAM to Continually Learn from Dynamic Domains with Extreme Storage Efficiencys**](https://arxiv.org/abs/2412.05012) <img src='https://img.shields.io/github/stars/INV-WZQ/SAMCL.svg?style=social&label=Star' alt="sym" height="100%">
+
+**Zeqing Wang**, Kangye Ji, Di Wang, Haibin Zhang, Fei Cheng
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2412.05012"> <strong>[paper]</strong></a>
+    <a href="https://github.com/INV-WZQ/SAMCL"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Segment Anything Model (SAM) struggles in open-world scenarios with diverse domains. In such settings, naive fine-tuning with a well-designed learning module is inadequate and often causes catastrophic forgetting issue when learning incrementally. To address this issue, we propose a novel continual learning (CL) method for SAM, termed SAMCL. Rather than relying on a fixed learning module, our method decomposes incremental knowledge into separate modules and trains a selector to choose the appropriate one during inference. However, this intuitive design introduces two key challenges: ensuring effective module learning and selection, and managing storage as tasks accumulate.
+To tackle these, we introduce two components: AugModule and Module Selector. AugModule reduces the storage of the popular LoRA learning module by sharing parameters across layers while maintaining accuracy. It also employs heatmaps—generated from point prompts—to further enhance domain adaptation with minimal additional cost. Module Selector leverages the observation that SAM’s embeddings can effectively distinguish domains, enabling high selection accuracy by training on low-consumed embeddings instead of raw images.
+Experiments show that SAMCL outperforms state-of-the-art methods, achieving only 0.19% forgetting and at least 2.5% gain on unseen domains. Each AugModule requires just 0.233 MB, reducing storage by at least 24.3% over other fine-tuning approaches. The buffer storage for Module Selector is further reduced by up to 256x.  </p>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASP-DAC 2025</div><img src='https://github.com/INV-WZQ/LightCL/blob/main/image/method.png?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
