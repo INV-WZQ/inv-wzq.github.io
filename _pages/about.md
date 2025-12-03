@@ -119,6 +119,21 @@ Experiments show that SAMCL outperforms state-of-the-art methods, achieving only
 </div>
 </div>
 
+<ul>
+  <li>
+    <strong> Jump-teaching: Combating Sample Selection Bias via Temporal Disagreement. AAAI 2026. </strong>
+    <div style="display: inline">
+        <a href="https://arxiv.org/abs/2405.17137"> [paper]</a>
+        <a href="https://github.com/ky-ji/Jump-teaching"> [code]</a>
+        <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" >[abstract]</a>
+        <div class="abstract"  style="overflow: hidden; display: none;">  
+            <p> Sample selection is a straightforward technique to combat noisy labels, aiming to prevent mislabeled samples from degrading the robustness of neural networks. However, existing methods mitigate compounding selection bias either by leveraging dual-network disagreement or additional forward propagations, leading to multiplied training overhead. To address this challenge, we introduce Jump-teaching, an efficient sample selection framework for debiased model update and simplified selection criterion. Based on a key observation that a neural network exhibits significant disagreement across different training iterations, Jump-teaching proposes a jump-manner model update strategy to enable self-correction of selection bias by harnessing temporal disagreement, eliminating the need for multi-network or multi-round training. Furthermore, we employ a sample-wise selection criterion building on the intra variance of a decomposed single loss for a fine-grained selection without relying on batch-wise ranking or dataset-wise modeling. Extensive experiments demonstrate that Jump-teaching outperforms state-of-the-art counterparts while achieving a nearly overhead-free selection procedure, which boosts training speed by up to 4.47x and reduces peak memory footprint by 54% </p>
+        </div>
+    </div>
+    <div><i><strong>Xinyin Ma</strong>, Runpeng Yu, Songhua Liu, Gongfan Fang, Xinchao Wang. </i></div>
+  </li>
+</ul>
+
 
 # 🎖 Honors and Awards
 - 2021-2025(B.Eng.): National Scholarship of 2021-2022, National Scholarship of 2022-2023, 2025 CCF Elite Collegiate Award, Duan Baoyan Innovation Fund (Only 4 undergraduate students at Xidian University)
