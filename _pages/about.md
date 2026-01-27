@@ -31,13 +31,14 @@ Currently, my research interests include:
 
 
 # 🔥 News
+- 2026.1: 🎉 [SparseD](https://arxiv.org/abs/2509.24014) is accepted by ICLR’26. 
 - 2025.11: 🌟 Three papers ([DualParal](https://arxiv.org/abs/2505.21070), [SAMCL](https://arxiv.org/abs/2412.05012) and [Jump-teaching](https://arxiv.org/abs/2405.17137)) accepted by AAAI’26.
 - 2025.08: ⛵ Start my Msc. journey in NUS!
-- 2025.06: 🎉 Got my Bachelor degree from Xidian University! Thanks to my supervisor and all my friends in XDU!
+- 2025.06: 🎉 Got my Bachelor's degree from Xidian University! Thanks to my supervisor and all my friends in XDU!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://github.com/INV-WZQ/SparseD/blob/main/assets/demo.gif?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/INV-WZQ/SparseD/blob/main/assets/demo.gif?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**SparseD: Sparse Attention for Diffusion Language Models**](https://arxiv.org/abs/2509.24014) <img src='https://img.shields.io/github/stars/INV-WZQ/SparseD.svg?style=social&label=Star' alt="sym" height="100%">
