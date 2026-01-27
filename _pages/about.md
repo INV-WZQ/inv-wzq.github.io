@@ -31,7 +31,7 @@ Currently, my research interests include:
 
 
 # 🔥 News
-- 2026.1: 🎉 [SparseD](https://arxiv.org/abs/2509.24014) is accepted by ICLR’26. 
+- 2026.01: 🎉 [SparseD](https://arxiv.org/abs/2509.24014) is accepted by ICLR’26. 
 - 2025.11: 🌟 Three papers ([DualParal](https://arxiv.org/abs/2505.21070), [SAMCL](https://arxiv.org/abs/2412.05012) and [Jump-teaching](https://arxiv.org/abs/2405.17137)) accepted by AAAI’26.
 - 2025.08: ⛵ Start my Msc. journey in NUS!
 - 2025.06: 🎉 Got my Bachelor's degree from Xidian University! Thanks to my supervisor and all my friends in XDU!
