@@ -31,6 +31,7 @@ Currently, my research interests include:
 
 
 # 🔥 News
+- 2026.02: 🥳 One paper was accepted to CVPR’26. Congratulations to my collaborators!
 - 2026.01: 🎉 [SparseD](https://arxiv.org/abs/2509.24014) is accepted by ICLR’26. 
 - 2025.11: 🌟 Three papers ([DualParal](https://arxiv.org/abs/2505.21070), [SAMCL](https://arxiv.org/abs/2412.05012) and [Jump-teaching](https://arxiv.org/abs/2405.17137)) accepted by AAAI’26.
 - 2025.08: ⛵ Start my Msc. journey in NUS!
@@ -119,6 +120,21 @@ Experiments show that SAMCL outperforms state-of-the-art methods, achieving only
 
 </div>
 </div>
+
+<ul>
+  <li>
+    <strong> SpotEdit: Selective Region Editing in Diffusion Transformers. CVPR 2026. </strong>
+    <div style="display: inline">
+        <a href="https://arxiv.org/abs/2512.22323"> [paper]</a>
+        <a href="https://github.com/Biangbiang0321/SpotEdit"> [code]</a>
+        <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" >[abstract]</a>
+        <div class="abstract"  style="overflow: hidden; display: none;">  
+            <p> Diffusion Transformer (DiT)-based models have significantly advanced image editing by encoding conditional images and integrating them into transformer layers. However, most edits involve modifying only small regions, while current methods uniformly process and denoise all tokens at every timestep, causing redundant computation and potentially degrading unchanged areas. This raises a fundamental question: Is it truly necessary to regenerate every region during editing? To address this, we propose SpotEdit, a training-free diffusion editing framework that selectively updates only the modified regions. SpotEdit comprises two key components: SpotSelector identifies stable regions via perceptual similarity and skips their computation by reusing conditional image features; SpotFusion adaptively blends these features with edited tokens through a dynamic fusion mechanism, preserving contextual coherence and editing quality. By reducing unnecessary computation and maintaining high fidelity in unmodified areas, SpotEdit achieves efficient and precise image editing. </p>
+        </div>
+    </div>
+    <div><i>Zhibin Qin, Zhenxiong Tan, <strong>Zeqing Wang</strong>, Songhua Liu, Xinchao Wang. </i></div>
+  </li>
+</ul>
 
 <ul>
   <li>
