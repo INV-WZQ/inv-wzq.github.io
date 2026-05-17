@@ -39,13 +39,7 @@ Currently, my research interests include:
 - 2025.06: 🎉 Got my Bachelor's degree from Xidian University! Thanks to my supervisor and all my friends in XDU!
 
 # 📝 Publications 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Arxiv 2026</div>
-      <img src='https://github.com/INV-WZQ/ReactiveGWM/blob/page/static/data/demo_other_overlay_chosen/all_demo.gif?raw=true' width="100%" autoplay loop muted playsinline></img>
-    </div>
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='https://github.com/INV-WZQ/ReactiveGWM/blob/page/static/data/demo_other_overlay_chosen/all_demo.gif?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**ReactiveGWM: Steering NPC in Reactive Game World Models**]() <img src='https://img.shields.io/github/stars/INV-WZQ/ReactiveGWM.svg?style=social&label=Star' alt="sym" height="100%">
