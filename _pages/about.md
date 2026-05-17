@@ -43,7 +43,7 @@ Currently, my research interests include:
   <div class='paper-box-image'>
     <div>
       <div class="badge">Arxiv 2026</div>
-      <img src='https://github.com/INV-WZQ/ReactiveGWM/blob/page/static/data/demo_other_overlay_chosen/all_demo.gif?raw=true' width="100%" autoplay loop muted playsinline></video>
+      <img src='https://github.com/INV-WZQ/ReactiveGWM/blob/page/static/data/demo_other_overlay_chosen/all_demo.gif?raw=true' width="100%" autoplay loop muted playsinline></img>
     </div>
   </div>
 <div class='paper-box-text' markdown="1">
