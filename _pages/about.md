@@ -25,10 +25,11 @@ Currently, my research interests include:
 
 - Efficient AI: model compression, model acceleration, distributed computing.
 
-- Diffusion Models: Video Diffusion Models, Diffusion Language Models.
+- Diffusion Models: World Models, Video Diffusion Models, Diffusion Language Models.
 
 - Continual Learning and Transfer Learning.
 
+**<span style="color: red;">🚀 On the Job Market: I am actively seeking full-time opportunities! If your team is working on Efficient AI, Diffusion Models, or World Models, I would love to connect.</span>**
 
 # 🔥 News
 - 2026.02: 🥳 One paper was accepted to CVPR’26. 
