@@ -48,7 +48,7 @@ Currently, my research interests include:
 
 <div style="display: inline">
     <a href="https://inv-wzq.github.io/ReactiveGWM/"> <strong>[project page]</strong></a>
-    <a href=""> <strong>[paper]</strong></a>
+    <a href="https://arxiv.org/abs/2605.15256"> <strong>[paper]</strong></a>
     <a href="https://github.com/INV-WZQ/ReactiveGWM"> <strong>[code]</strong></a>
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
